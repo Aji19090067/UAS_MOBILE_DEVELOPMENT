@@ -1,0 +1,415 @@
+{
+  "intents": [
+    {
+      
+      "tag": "Sapa'an",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hai",
+        "Bagaimana Kabarmu",
+        "Apakah ada orang?",
+        "Hello",
+        "Good day",
+        "hallo",
+        "halo",
+        "hei"
+      ],
+      "responses": [
+        "Hallo, Tibot disini :), silakan bertanya seputar prodi Teknik Informatika",
+        "Hai Saya Tibot, Terimakasih  telah berkunjung, ada yang ingin anda tanyakan?",
+        "Halo... Saya Tibot, Ada yang bisa saya bantu?"
+      ]
+    },
+    {
+      "tag": "salam",
+      "patterns":[
+          "Assalamu'alaikum",
+          "Assalamualaikum",
+          "assalamualaikum wr . wb",
+          "assalamu'alakum wr . wb",
+          "mikum",
+          "samlekum",
+          "wassalamu'alaikum",
+          "wassalamualaikum",
+          "wassalam"
+        ],
+        "responses":[
+        "Wa'alaikumsalam wr.wb"
+        ]
+    },
+    {
+      "tag": "Pagi",
+      "patterns":[
+          "Selamat pagi",
+          "Pagi",
+          "Halo selamat pagi",
+          "esuk",
+          "pageh",
+          "enjing",
+          "morning"
+        ],
+        "responses":[
+        "Halo Selamat pagi TIBOT disini, ada yang bisa di bantu ?"
+        ]
+    },
+    {
+        "tag": "siang",
+        "patterns":[
+            "Selamat siang",
+            "siang",
+            "Halo selamat siang",
+            "awan",
+            "evening"
+          ],
+          "responses":[
+          "Halo Selamat siang TIBOT disini, ada yang bisa di bantu ?"
+          ]
+      },
+      {
+        "tag": "sore",
+        "patterns":[
+            "Selamat sore",
+            "sore",
+            "Halo selamat sore",
+            "afternoon",
+            "sonten"
+          ],
+          "responses":[
+          "Halo Selamat sore TIBOT disini, ada yang bisa di bantu ?"
+          ]
+      },
+      {
+        "tag": "malam",
+        "patterns":[
+            "Selamat malam",
+            "malam",
+            "Halo selamat malam",
+            "bengi",
+            "night"
+
+          ],
+          "responses":[
+          "Halo Selamat malam TIBOT disini, ada yang bisa di bantu ?"
+          ]
+      },
+      {
+        "tag": "Bertanya",
+        "patterns":[
+            "saya mau tanya",
+            "saya mau bertanya",
+            "arep takon",
+            "mau tanya",
+            "pan takon",
+            "tanya",
+            "bertanya"
+          ],
+          "responses":[
+          "silahkan bertanya, Tibot siap menjawab... ?"
+          ]
+      },
+      {
+        "tag": "pengertian",
+        "patterns":[
+            "apa itu Ti ?",
+            "Ti itu apa sih ?",
+            "Ti adalah",
+            "Jurusan TI adalah ?",
+            "apakah jurusan Teknik Informatika ?",
+            "Teknik Informatika Adalah",
+            "TI"
+          ],
+          "responses":[
+          "TI atau Teknik Informatika adalah Salah satu prodi di POLITEKNIK HARAPAN BERSAMA TEGAL, Teknik Informatika merupakan bidang ilmu yang mempelajari bagaimana menggunakan teknologi komputer secara optimal guna menangani masalah transformasi atau pengolahan data dengan proses logika."
+          ]
+      },
+      {
+        "tag": "semester",
+        "patterns":[
+            "Ada berapa semester Di Prodi D4 Teknik Informatika ?",
+            "berapa semester ?",
+            "semester",
+            "jumlah semester nya adalah",
+            "semester nya berapa ",
+            "semester e ono piro",
+            "semester"
+          ],
+          "responses":[
+          "TI atau Teknik Informatika menempuh waktu belajar 8 semester Atau selama 4 Tahun belajar"
+          ]
+      },
+      {
+        "tag": "error",
+        "patterns":[
+            "Apakah bisa mambuatkan Kopi ?",
+            "Adakah kopi ?",
+            "Saya pingin kopi",
+            "Apakah bisa membuat teh ?",
+            "Apakah bisa membuat kue ?",
+            "Apakah biaa membuat mie ?",
+            "Adakah mie ?",
+            "Adakah kue ?",
+            "Adakah teh ?",
+            "Bisakah membuat makanan ?",
+            "Biaakah membuat minuman ?",
+            "Minum",
+            "Makan",
+            "lapar",
+            "loha",
+            "saya lapar",
+            "laper"
+
+          ],
+          "responses":[
+          "Maaf TIBOT hanya bisa menjawab seputar Prodi D4 Teknik Informatika saja yaa :). silahkan ajukan pertanyaan seputar informasi Prodi D4 Teknik Informatika"
+          ]
+      },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Selamat Tinggal","Sampai Jumpa"],
+      "responses": [
+        "Sampai Jumpa Lagi..",
+        "Semoga harimu menyenangkan.."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Terima kasih","dadah", "Terimakasih", "itu sangat membantu", "Terimakasih banyak!"],
+      "responses": ["Senang bisa membantu!", "Kapan pun!", "Dengan senang hati",
+        "Terimakasih Telah menghubungi Tibot, Senang dapat membantu :)"]
+    },
+    {
+      "tag": "visi misi",
+      "patterns":[
+          "apa visi misi D4 teknik informatika",
+          "visi misi d4 ti adalah",
+          "apa saja visi misinya",
+          "visi misi",
+          "sebutkan visi misi nya ",
+          "visi misi e ono piro"
+        ],
+        "responses":[
+        "VISI : Menjadi program studi unggul dalam bidang teknik informatika yang mampu beradaptasi terhadap perkembangan teknologi informasi, berjiwa kewirausahaan, berbasis kearifan lokal dan berdaya saing global pada tahun 2035. MISI : Meningkatkan mutu Program Studi melalui peningkatan nilai akreditasi, Mengembangkan kurikulum berbasis vokasional dalam bidang perangkat lunak yang sesuai dengan perkembangan teknologi informasi, Meningkatkan kerjasama dengan institusi, industri, dan komunitas masyarakat dalam bidang perangkat lunak di dalam maupun di luar negeri, Meningkatkan daya saing dosen dan mahasiswa dalam bidang perangkat lunak"
+        ]
+    },
+    {
+      "tag": "info prodi",
+      "patterns": [
+        "Dimana Ruang Dosen ?",
+        "Ruang Kaprodi ?",
+        "letak ruang admin ?",
+        "letak ruang ka prodi ?",
+        "Ruang RnD ?",
+        "letak ruang dosen ?",
+        "Ruang Admin?",
+        "neng ndi ruang admin",
+        "neng ndi ruang Kaprodi",
+        "neng ndi ruang dosen",
+        "neng ndi ruang Rnd",
+        "ruangan kaprodi",
+        "ruangan Rnd",
+        "ruangan admin",
+        "ruangan dosen",
+        "ruangan"
+      ],
+      "responses": [
+        "Ruangan yang anda maksud berada di Gedung D lantai 2"
+      ]
+    },
+    {
+      "tag": "info jumlah mahasiswa",
+      "patterns":[
+          "Berapakah Jumlah seluruh mahasiswa ?",
+          "Mahasiswa D4 teknik Informatika berjumlah ?",
+          "Jumlah mahasiswa D4 teknik informatika adalah?",
+          "Berapa saja jumlah mahasiswa D4 teknik informatika ?",
+          "Ada berapa jumlah seluruh mahasiswa d4 Teknik informatika ?",
+          "jumlah mahasiswa TI ?",
+          "ada berapa total mahasiswa ?",
+          "total mahasiswa ?"
+        ],
+        "responses":[
+        "Total keseluruhan dari jumlah mahasiswa Prodi D4 Teknik Informatika adalah 465"
+        ]
+    },
+    {
+      "tag": "info kelas",
+      "patterns":[
+          "Ada berapa Ruang kelas  ?",
+          "Berapa jumlah ruang kelasnya ?",
+          "Ada berapa jumlah Ruang kelasnya ?",
+          "Berapa jumlah seluruh kelas ?",
+          "Terdiri dri berapa kelas kah ?",
+          "Jumlah ruang kelasnya berapa ?",
+          "ada berapa ruang kelas ?",
+          "jumlah ruang kelas ?",
+          "ada berapa total ruang kelas ?",
+          "kelas"
+        ],
+        "responses":[
+        "Jumlah kelas Prodi D4 Teknik informatika yaitu 8 kelas dilantai 4, 1 ruang Rnd berada di lantai 2,dan 2 Lab Komputer di lantai 3"
+        ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Apa bisa membayar SPP dengan mobile banking?",
+        "membayar SPP Lewat apa?",
+        "Bayar tagihan menggunakan apa?",
+        "apa bisa membayar spp pake m banking?",
+        "Membayar SPP Lewat apa?",
+        "Bayar tagihan pakai apa?",
+        "Apakah bisa membayar dengan Mbanking?",
+        "Apakah bisa bayar tagihan dengan ATM?",
+        "bayar"
+      ],
+      "responses": [
+        "Anda bisa membayar tagihan atau iuran SPP dengan menggunakan Payment, M-banking dan ATM. untuk lebih jelas silahkan kunjungi https://www.oase.poltektegal.ac.id/"
+        ]
+    },
+    {
+      "tag": "ketua prodi",
+      "patterns": [
+        "Siapa kaprodi TI ?",
+        "Nama kaprodi TI ?",
+        "Siapa Ketua Prodi TI ?",
+        "nama ka prodi TI ?",
+        "Siapa Ketua Prodi Teknik Informatika ?",
+        "Nama kaprodi Teknik Informatika ?",
+        "ketua prodi",
+        "kepala prodi",
+        "kaprodi",
+        "Kaprodi"
+      ],
+      "responses": [
+        "Ka prodi Teknik Informatika adalah Bpk. Slamet Wiyono, S.Pd., M.Eng."
+      ]
+    },
+    {
+      "tag": "jam kerja",
+      "patterns": [
+        "Kapan jam kerja ?",
+        "kapan waktu kerja ?",
+        "kapan bisa menguhubungi dosen ?",
+        "kapan bisa menguhubungi dosen ?",
+        "kapan bisa mengunjungi dosen ?",
+        "kapan bisa mengunjungi dosen ?",
+        "jam kerja dosen",
+        "jam kerja admin",
+        "waktu kerja admin",
+        "waktu kerja dosen"
+      ],
+      "responses": [
+        "Anda dapat mengubungi dosen dan admin pada saat hari senin -  jumat pukul 08.00 - 15.00 WIB. Dengan waktu istirahat 12.00 - 13.00 WIB"
+      ]
+    },
+    {
+      "tag": "Fasilitas",
+      "patterns": [
+        "Apa saja fasilitas di TI ?",
+        "Apa saja fasilitas di Teknik Informatika ?",
+        "fasilitasnya apa saja ?",
+        "fsilitas pengunjang pembelajaran ?",
+        "due fasilitase apa bae?"
+      ],
+      "responses": [
+        "Fasilitas Pendukung Perkuliahan di Teknik Informatika berupa 2 ruang Lab. Komputer dan Ruang RnD (Research and Development)"
+      ]
+    },
+    {
+      "tag": "Fasilitas",
+      "patterns": [
+        "Apa saja fasilitas di TI ?",
+        "Apa saja fasilitas di Teknik Informatika ?",
+        "fasilitasnya apa saja ?",
+        "fsilitas pengunjang pembelajaran ?",
+        "due fasilitase apa bae?",
+        "fasilitas"
+      ],
+      "responses": [
+        "Fasilitas Pendukung Perkuliahan di Teknik Informatika berupa 2 ruang Lab. Komputer dan Ruang RnD (Research and Development)"
+      ]
+    },
+    {
+      "tag": "gelar",
+      "patterns": [
+        "gelar d4 teknik informatika ?",
+        "gelar lulusan d4 teknik informatika ?",
+        "gelar yang didapat d4 teknik informatika ?",
+        "D4 teknik informatika gelarnya apa ?",
+        "gelar",
+        "gelar lulusan"
+      ],
+      "responses": [
+        "Gelar lulusan D4 Teknik Informatika adalah S.Tr.Kom"
+      ]
+    },
+    {
+      "tag": "masa kuliah",
+      "patterns": [
+        "D4 Teknik Informatika kuliah berapa tahun ?",
+        "kuliah di teknik informatika berapa tahun ?",
+        "belajar di d4 teknik informatika berapa tahun ?",
+        "D4 Teknik Informatika kuliah berapa lama ?",
+        "kuliah di teknik informatika berapa lama ?",
+        "belajar di d4 teknik informatika berapa lama ?",
+        "D4 Teknik Informatika kuliah berapa semester ?",
+        "kuliah di teknik informatika berapa semester ?",
+        "belajar di d4 teknik informatika berapa semester ?",
+        "berapa tahun ?",
+        "berapa sks",
+        "berapa semester"
+      ],
+      "responses": [
+        "Lama masa kuliah untuk program D4 Teknik Informtika adalah 4 tahun, dan terdiri dari 8 semester dengan total sks = -------"
+      ]
+    },
+    {
+      "tag": "sekretaris",
+      "patterns": [
+        "Siapa sekretaris TI ?",
+        "Nama sekretaris TI ?",
+        "Siapa sekretaris Prodi TI ?",
+        "nama sekretaris prodi TI ?",
+        "Siapa sekretaris Teknik Informatika ?",
+        "Nama sekretaris Teknik Informatika ?",
+        "sekretaris ",
+        "sekretaris prodi"
+      ],
+      "responses": [
+        "Sekretaris Prodi Teknik Informatika adalah Bpk. M.Fikri Hidayattullah, S.T., M.kom.,"
+  
+      ]
+    },
+    {
+      "tag": "kemahasiswaan",
+      "patterns": [
+        "Siapa kemahasiswaan TI ?",
+        "Nama kemahasiswaan TI ?",
+        "Siapa kemahasiswaan Prodi TI ?",
+        "nama kemahasiswaan prodi TI ?",
+        "Siapa kemahasiswaan Teknik Informatika ?",
+        "Nama kemahasiswaan Teknik Informatika ?",
+        "kemahasiswaan",
+        "kemahasiswaan prodi"
+      ],
+      "responses": [
+        "Kemahasiswaan Prodi Teknik Informatika adalah Ibu Sharfina Febbi Handayani, M.kom.,"
+      ]
+    }, 
+    {
+      "tag": "informasi jumlah dosen",
+      "patterns": [
+        "Berapa jumlah dosen TI ?",
+        "Jumlah dosen Teknik Informatika ?",
+        "Berapa jumlah dosen aktif TI ?",
+        "Berapa dosennya ?",
+        "Jumlah dosen aktif Teknik Informatika ?",
+        "Jumlah Dosen ?",
+        "dosen"
+      ],
+      "responses": [
+        "Dosen prodi D4 TI berjumlah 23 dosen aktif"
+      ]
+    }
+  ]
+}

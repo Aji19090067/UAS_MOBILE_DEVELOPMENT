@@ -1,3 +1,6 @@
+#6B-19090067-Aji Prasetyo
+#6B-19090020-Hanif Arkhan Al asyrafi
+
 import numpy as np
 import nltk #untuk membangun program analisis teks
 # nltk.download('punkt')

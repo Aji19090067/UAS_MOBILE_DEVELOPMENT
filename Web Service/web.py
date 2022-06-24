@@ -1,3 +1,6 @@
+#6B-19090067-Aji Prasetyo
+#6B-19090020-Hanif Arkhan Al asyrafi
+
 from flask import Flask, request, jsonify
 from flask_mysqldb import MySQL
 from chat import get_message

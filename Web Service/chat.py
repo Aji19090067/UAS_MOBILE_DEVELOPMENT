@@ -1,3 +1,6 @@
+#6B-19090067-Aji Prasetyo
+#6B-19090020-Hanif Arkhan Al asyrafi
+
 import random
 import json
 import torch
